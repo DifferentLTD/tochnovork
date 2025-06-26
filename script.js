@@ -178,11 +178,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // --- Функционал скачивания приложений ---
-  const downloadMobile = document.getElementById('download-mobile');
-  const downloadPC = document.getElementById('download-pc');
+  const downloadMobile = document.getElementById('downloads-mobile');
+  const downloadPC = document.getElementById('downloads-pc');
   const downloadApp = document.getElementById('download-app');
   const downloadExcel = document.querySelector('a[href="downloads/excel.xlsx"]');
-  const downloadScreenshot = document.getElementById('download-screenshot');
+  const downloadScreenshot = document.getElementById('downloads-screenshot');
 
   if (downloadApp) {
     downloadApp.addEventListener('click', function(e) {
